@@ -59,7 +59,8 @@ class TransportTests(unittest.TestCase):
             run.assert_called_once()
             argv = run.call_args.args[0]
             self.assertEqual(argv[:2], ["system-curl", "--disable"])
-            self.assertEqual([argv[i + 1] for i, v in enumerate(argv) if v == "--cacert"], [str(ca)] * 2)
+            ca_arguments = [argv[i + 1] for i, value in enumerate(argv) if value == "--cacert"]
+            self.assertEqual(ca_arguments, [str(ca.resolve())] * 2)
             self.assertIn("https://storage.googleapis.com/example/file", str(error.exception))
             self.assertNotIn("signature", str(error.exception))
             self.assertFalse(target.exists())
@@ -79,6 +80,18 @@ class TransportTests(unittest.TestCase):
 @unittest.skipUnless(shutil.which("openssl"), "OpenSSL command required to create temporary test certificates")
 class LocalChainTests(unittest.TestCase):
     @classmethod
+    def start_server(cls, handler, context=None):
+        server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
+        cls.addClassCleanup(server.server_close)
+        if context is not None:
+            server.socket = context.wrap_socket(server.socket, server_side=True)
+        thread = threading.Thread(target=server.serve_forever, daemon=True)
+        thread.start()
+        cls.addClassCleanup(thread.join)
+        cls.addClassCleanup(server.shutdown)
+        return server.server_port
+
+    @classmethod
     def setUpClass(cls):
         tmp = TemporaryDirectory()
         cls.addClassCleanup(tmp.cleanup)
@@ -90,16 +103,20 @@ class LocalChainTests(unittest.TestCase):
 
         openssl("req", "-x509", "-newkey", "rsa:2048", "-nodes", "-days", "2", "-subj",
                 "/CN=P3 local test CA", "-addext", "basicConstraints=critical,CA:TRUE",
+                "-addext", "subjectKeyIdentifier=hash",
                 "-addext", "keyUsage=critical,keyCertSign,cRLSign", "-keyout", "ca.key", "-out", "ca.pem")
-        openssl("req", "-new", "-newkey", "rsa:2048", "-nodes", "-subj", "/CN=localhost",
-                "-keyout", "server.key", "-out", "server.csr")
-        (cls.root / "server.ext").write_text(
-            "basicConstraints=critical,CA:FALSE\nkeyUsage=critical,digitalSignature,keyEncipherment\n"
-            "extendedKeyUsage=serverAuth\nsubjectAltName=DNS:localhost\n"
-            "authorityKeyIdentifier=keyid,issuer\nsubjectKeyIdentifier=hash\n", encoding="ascii"
+        # Schannel checks the issuing CA's revocation list when curl uses a custom CA.
+        (cls.root / "index.txt").touch()
+        (cls.root / "crlnumber").write_text("01\n", encoding="ascii")
+        (cls.root / "crl.cnf").write_text(
+            "[ca]\ndefault_ca=authority\n[authority]\ndatabase=index.txt\n"
+            "certificate=ca.pem\nprivate_key=ca.key\ndefault_md=sha256\ndefault_crl_days=2\n"
+            "crlnumber=crlnumber\ncrl_extensions=crl_ext\n[crl_ext]\nauthorityKeyIdentifier=keyid:always\n",
+            encoding="ascii",
         )
-        openssl("x509", "-req", "-in", "server.csr", "-CA", "ca.pem", "-CAkey", "ca.key",
-                "-CAcreateserial", "-days", "2", "-extfile", "server.ext", "-out", "server.pem")
+        openssl("ca", "-batch", "-gencrl", "-config", "crl.cnf", "-out", "ca-crl.pem")
+        openssl("crl", "-in", "ca-crl.pem", "-outform", "DER", "-out", "ca.crl")
+        crl = (cls.root / "ca.crl").read_bytes()
 
         class Handler(http.server.BaseHTTPRequestHandler):
             def do_GET(self):
@@ -107,26 +124,35 @@ class LocalChainTests(unittest.TestCase):
                     self.send_response(302)
                     self.send_header("Location", f"https://127.0.0.1:{self.server.server_port}/final?signature=private")
                     self.end_headers()
-                else:
-                    self.send_response(200)
-                    self.send_header("Content-Length", "2")
-                    self.end_headers()
-                    self.wfile.write(b"OK")
+                    return
+                is_crl = self.path == "/ca.crl"
+                body = crl if is_crl else b"OK"
+                self.send_response(200)
+                self.send_header("Content-Type", "application/pkix-crl" if is_crl else "text/plain")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
 
             def log_message(self, *args):
                 pass
 
-        server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), Handler)
-        cls.addClassCleanup(server.server_close)
+        crl_port = cls.start_server(Handler)
+        openssl("req", "-new", "-newkey", "rsa:2048", "-nodes", "-subj", "/CN=localhost",
+                "-keyout", "server.key", "-out", "server.csr")
+        (cls.root / "server.ext").write_text(
+            "basicConstraints=critical,CA:FALSE\nkeyUsage=critical,digitalSignature,keyEncipherment\n"
+            "extendedKeyUsage=serverAuth\nsubjectAltName=DNS:localhost\n"
+            "authorityKeyIdentifier=keyid,issuer\nsubjectKeyIdentifier=hash\n"
+            f"crlDistributionPoints=URI:http://127.0.0.1:{crl_port}/ca.crl\n", encoding="ascii"
+        )
+        openssl("x509", "-req", "-in", "server.csr", "-CA", "ca.pem", "-CAkey", "ca.key",
+                "-CAcreateserial", "-days", "2", "-extfile", "server.ext", "-out", "server.pem")
+        openssl("verify", "-CAfile", "ca.pem", "-crl_check", "-CRLfile", "ca-crl.pem", "server.pem")
         ctx = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
         ctx.load_cert_chain(cls.root / "server.pem", cls.root / "server.key")
-        server.socket = ctx.wrap_socket(server.socket, server_side=True)
-        thread = threading.Thread(target=server.serve_forever, daemon=True)
-        thread.start()
-        cls.addClassCleanup(thread.join)
-        cls.addClassCleanup(server.shutdown)
-        cls.base = f"https://localhost:{server.server_port}"
-        cls.redirect_target = f"https://127.0.0.1:{server.server_port}/final"
+        tls_port = cls.start_server(Handler, ctx)
+        cls.base = f"https://localhost:{tls_port}"
+        cls.redirect_target = f"https://127.0.0.1:{tls_port}/final"
 
     def test_unknown_issuer_custom_ca_and_redirect_hostname(self):
         local = {"no_proxy": "localhost,127.0.0.1", "NO_PROXY": "localhost,127.0.0.1"}
