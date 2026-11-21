@@ -1,0 +1,6 @@
+Euronext — Paris, Equity & Index Derivatives, delayed post-trade data
+Source and distribution terms: https://marketdata.euronext.com/data-reporting-service/trades-file
+
+© 2026 Euronext N.V. All Rights Reserved. The information, data, analysis and delayed (pre- and post-)trade data contained herein (i) include the proprietary information of Euronext and its content providers, (ii) may not be copied or further disseminated, by any media whatsoever, except as specifically authorized by Euronext, (iii) do not constitute investment advice, (iv) are provided solely for informational purposes and (v) are not warranted to be complete, accurate or timely.
+
+The ZIP is the original response for the trading day 20 November 2026. The filtered output is prepared by DupireIdentify. ESMA supplies the instrument classifications.

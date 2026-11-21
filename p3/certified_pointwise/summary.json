@@ -1,0 +1,85 @@
+{
+  "asof": "2026-11-20T12:00:50.000000000Z",
+  "product": "TOTB",
+  "underlying": "FR0000120271",
+  "exercise_cutoffs": 37,
+  "minimum_exercise_date": "2026-11-20",
+  "maximum_exercise_date": "2027-01-15",
+  "certified_models": {
+    "reference": {
+      "contracts_certified": 20,
+      "minimum_margin_eur": "0.02673735",
+      "binding_isin": "DE000F4E4YZ4",
+      "variance_intercept_eur2_per_day": "4197297/3125000",
+      "variance_slope_eur2_per_day2": "-10731649/1000000000",
+      "prepaid_spot_eur": "7844661451/100000000"
+    },
+    "lower_example": {
+      "contracts_certified": 20,
+      "minimum_margin_eur": "0.00181236",
+      "binding_isin": "DE000F4E4YR1",
+      "variance_intercept_eur2_per_day": "148372253/100000000",
+      "variance_slope_eur2_per_day2": "-194991317/10000000000",
+      "prepaid_spot_eur": "7842872839/100000000"
+    },
+    "upper_example": {
+      "contracts_certified": 20,
+      "minimum_margin_eur": "0.00170155",
+      "binding_isin": "DE000F4E4YZ4",
+      "variance_intercept_eur2_per_day": "31618457/25000000",
+      "variance_slope_eur2_per_day2": "-33923201/5000000000",
+      "prepaid_spot_eur": "706590000/9002441"
+    }
+  },
+  "mesh_eur": "1/32",
+  "point": {
+    "at_utc": "2026-12-18T19:00:00Z",
+    "coordinate": "gains",
+    "level_eur": "78",
+    "discounted_gains_state_eur": "78",
+    "relative_volatility_denominator_eur": "78",
+    "exact_nonnegative_volatility_set": "[0, +infinity)",
+    "strictly_positive_at_target_set": "(0, +infinity)",
+    "shared_price_witnesses": [
+      {
+        "volatility": "0",
+        "clock_derivative": "0",
+        "variance_at_point": "0"
+      },
+      {
+        "volatility": "3/20",
+        "clock_derivative": "47309184000000/131129843385361",
+        "variance_at_point": "9/400"
+      },
+      {
+        "volatility": "9/20",
+        "clock_derivative": "425782656000000/131129843385361",
+        "variance_at_point": "81/400"
+      }
+    ],
+    "warp_half_window_seconds": "1800",
+    "affine_speed_volatility_pct_outer": [
+      "23.086242",
+      "25.561922"
+    ],
+    "affine_speed_attained_volatility_pct": {
+      "reference": [
+        "24.972918",
+        "24.972919"
+      ],
+      "lower_example": [
+        "23.647013",
+        "23.647014"
+      ],
+      "upper_example": [
+        "25.369381",
+        "25.369382"
+      ]
+    },
+    "lipschitz_speed_limit_eur2_per_day2": "1/50",
+    "lipschitz_speed_volatility_pct_outer": [
+      "21.681567",
+      "28.672832"
+    ]
+  }
+}

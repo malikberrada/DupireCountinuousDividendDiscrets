@@ -1,0 +1,15 @@
+{
+  "provider": "Euronext",
+  "market": "Paris",
+  "segment": "EQUITY_INDEX_DERIVATIVES",
+  "venue": "XMON",
+  "session": "2026-11-20",
+  "received_utc": "2026-11-21",
+  "file": "Euronext-XMON-2026-11-20.zip",
+  "csv_member": "Trades_EquityIndexDerivatives.csv",
+  "csv_sha256": "008288c8c2b3787ee8c06c078ecbead855800ae1eabf99752e4d8b33394f5ced",
+  "bundled_zip_sha256": "5346b6fb92bb43dffdbc7a79daf6291b1740334ea101f0a18757d9188ebd7872",
+  "url": "https://marketdata.euronext.com/data-reporting-service/trades-file/download/EQUITY_INDEX_DERIVATIVES/PREVIOUS_TRADING_DAY/PAR",
+  "terms_page": "https://marketdata.euronext.com/data-reporting-service/trades-file",
+  "firds_projection_sha256": "009b8aab7c9bae67a18090cc48b80f3e594ee1885a64c2c103782a477df73dd8"
+}

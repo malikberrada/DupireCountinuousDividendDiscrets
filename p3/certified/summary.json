@@ -1,0 +1,62 @@
+{
+  "expected_local_time_increment_continuous_models": {
+    "strike": "78",
+    "outer": [
+      "0.45031324",
+      "2.03663920"
+    ],
+    "attained_extrema": [
+      "0.78655016",
+      "1.92399768"
+    ]
+  },
+  "asof": "2026-11-20T12:00:50.000000000Z",
+  "contracts": 20,
+  "expiries": [
+    "2026-12-18",
+    "2027-01-15"
+  ],
+  "common_witnesses": 47,
+  "core_models": 3,
+  "full_core_simplex_certified": true,
+  "central_minimum_slack_eur": "0.06499999",
+  "max_option_age_seconds": "7.041603412",
+  "directions": {
+    "call_minus_put": {
+      "weights": {
+        "DE000F4E4YY7": "1",
+        "DE000F4E4YZ4": "-1"
+      },
+      "outer": [
+        "-0.15245998",
+        "-0.09246403"
+      ],
+      "witness": [
+        "-0.15245997",
+        "-0.09246404"
+      ]
+    }
+  },
+  "dupire": {
+    "center": "78",
+    "spacing": "4",
+    "denominator": [
+      "264.16416380",
+      "614.87541480"
+    ],
+    "status": "certified_finite_difference",
+    "outer": [
+      "0.01315423",
+      "0.07774606"
+    ],
+    "attained_extrema": [
+      "0.02465868",
+      "0.06835897"
+    ],
+    "witness_indices": [
+      43,
+      44
+    ]
+  },
+  "extra_witness_searches_unresolved": 0
+}

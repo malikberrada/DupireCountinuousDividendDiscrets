@@ -1,0 +1,31 @@
+{
+  "schema": "txo-grid-fit-v1",
+  "fit_steps": 1024,
+  "fit_root": 32,
+  "discount": "689789/690000",
+  "forward": "34336051600/689789",
+  "knots": [
+    "-2",
+    "-1",
+    "-1/2",
+    "0",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "slopes": [
+    "7812674857247/200000000000000",
+    "39561067562811/1000000000000000",
+    "93093819561/3125000000000",
+    "28012670662273/1000000000000000",
+    "6295239346199/200000000000000",
+    "2532485143137/125000000000000",
+    "23497728697463/500000000000000",
+    "11337280992101/250000000000000"
+  ],
+  "criterion": "maximum absolute distance from midpoint divided by half-spread, numerical proposal",
+  "initial_curve": "single common slope from the observed nearest-forward straddle",
+  "fitted_relative_error_diagnostic": 0.692383566447223,
+  "scipy_version": "1.17.0",
+  "numpy_version": "2.3.5"
+}

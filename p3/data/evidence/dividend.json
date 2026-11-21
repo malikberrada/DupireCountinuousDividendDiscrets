@@ -1,0 +1,18 @@
+{
+  "underlying": "FR0000120271",
+  "currency": "EUR",
+  "amount": "0.90",
+  "ex_date": "2026-12-31",
+  "pay_date": "2027-01-05",
+  "status": "declared",
+  "published_at": "2026-07-23",
+  "board_decision": "2026-07-22",
+  "dila_filed_at": "2026-07-24T13:05:00+00:00",
+  "dila_id": "168826_20260724",
+  "source_url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/BWR/8888/01/FCBWR168826_20260724.pdf",
+  "source_sha256": "51bf3b5ff16e0138f6bba4c03d1ea25ab7b35026c1bee3366213eeb422ad99f8",
+  "printed_page": 53,
+  "market": "European ordinary share",
+  "source_dataset": "DILA INFO-FINANCIERE, Licence Ouverte",
+  "retrieved_utc": "2026-11-21"
+}

@@ -1,0 +1,602 @@
+[
+  {
+    "isin": "FREX04195019",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "35",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195027",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "35",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195035",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "40",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195043",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "40",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195050",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "45",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195068",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "45",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195076",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "50",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195084",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "50",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195092",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "54",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195100",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "54",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195118",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "56",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195126",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "56",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195134",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "58",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195142",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "58",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195159",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "60",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195167",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "60",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195175",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "64",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195183",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "64",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195191",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "68",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195209",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "68",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195217",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "70",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195225",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "70",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195233",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "72",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195241",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "72",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195258",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "74",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195266",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "74",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195274",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "76",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195282",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "76",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195290",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "78",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195308",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "78",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195316",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "80",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195324",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "80",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195332",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "82",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195340",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "82",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195357",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "84",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195365",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "84",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195373",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "86",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195381",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "86",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195399",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "88",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195407",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "88",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195415",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "90",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195423",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "90",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195431",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "92",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195449",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "92",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195456",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "96",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195464",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "96",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195472",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "100",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195480",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "100",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195498",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "104",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195506",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "104",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195514",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "108",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04195522",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "108",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04253867",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "112",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04253875",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "112",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04257678",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "94",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04257686",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "94",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04271745",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "116",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04271752",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "116",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04318371",
+    "expiry": "2027-01-15",
+    "kind": "call",
+    "strike": "66",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  },
+  {
+    "isin": "FREX04318389",
+    "expiry": "2027-01-15",
+    "kind": "put",
+    "strike": "66",
+    "multiplier": 100,
+    "style": "AMER",
+    "settlement": "PHYS",
+    "underlying": "FR0000120271"
+  }
+]

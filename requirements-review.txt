@@ -1,0 +1,4 @@
+# Optional acceleration, numerical refits, regression tests, and issuer PDF text verification.
+numpy==2.3.5
+scipy==1.17.0
+pypdf==6.21.4

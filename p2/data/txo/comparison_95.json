@@ -1,0 +1,51 @@
+{
+  "schema": "p2-txo-all-pairs-v1",
+  "input_panel": "4d32fdb66a3265e03c4ee9a7a355a9ba95a052afada03306de0c820356281aa4",
+  "grid_proposal": "0c6961c12daa301fb4313a7f79965abe7640579a9d454df66ab49e58a42ece10",
+  "all_pairs": {
+    "contracts": 190,
+    "strikes": 95,
+    "fit_inside": 116,
+    "fine_inside": 116,
+    "continuous_inside": 116,
+    "calls_continuous_inside": 60,
+    "puts_continuous_inside": 56,
+    "pairs_both_continuous_inside": 42,
+    "fit_inside_to_continuous_outside": [],
+    "fit_outside_to_continuous_inside": [],
+    "any_undecided": [],
+    "max_fitted_eta_points": "52420976906268201251023412457681/324518553658426726783156020576256",
+    "max_fine_eta_points": "14498582575909432517096319092305/1298074214633706907132624082305024"
+  },
+  "selected": {
+    "contracts": 10,
+    "strikes": 5,
+    "fit_inside": 10,
+    "fine_inside": 10,
+    "continuous_inside": 10,
+    "calls_continuous_inside": 5,
+    "puts_continuous_inside": 5,
+    "pairs_both_continuous_inside": 5,
+    "fit_inside_to_continuous_outside": [],
+    "fit_outside_to_continuous_inside": [],
+    "any_undecided": [],
+    "max_fitted_eta_points": "73109613886436668246947595551737/649037107316853453566312041152512",
+    "max_fine_eta_points": "10483845674903597362177005424537/1298074214633706907132624082305024"
+  },
+  "other_strikes": {
+    "contracts": 180,
+    "strikes": 90,
+    "fit_inside": 106,
+    "fine_inside": 106,
+    "continuous_inside": 106,
+    "calls_continuous_inside": 55,
+    "puts_continuous_inside": 51,
+    "pairs_both_continuous_inside": 37,
+    "fit_inside_to_continuous_outside": [],
+    "fit_outside_to_continuous_inside": [],
+    "any_undecided": [],
+    "max_fitted_eta_points": "52420976906268201251023412457681/324518553658426726783156020576256",
+    "max_fine_eta_points": "14498582575909432517096319092305/1298074214633706907132624082305024"
+  },
+  "contract_checks_sha256": "41fd533857cc95c86953fe56611ed1e6331d23ae3683b554e20a117310fce9f1"
+}

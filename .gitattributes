@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.zip binary
+*.gz binary
+p2/data/** -text
+p3/data/** -text
+p3/certified/** -text
+p3/certified_pointwise/** -text

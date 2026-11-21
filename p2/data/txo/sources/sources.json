@@ -1,0 +1,19 @@
+{
+  "session": "2026-10-07",
+  "retrieved_utc_date": "2026-11-21",
+  "files": [
+    {
+      "file": "taifex.csv",
+      "provider": "TAIFEX",
+      "url": "https://www.taifex.com.tw/enl/eng3/optDataDown?down_type=1&commodity_id=TXO&queryStartDate=2026%2F10%2F07&queryEndDate=2026%2F10%2F07",
+      "sha256": "79f3b561f853353b93012315d316d792b69dc20082adeaa04b3cb60a1d30a9cc"
+    },
+    {
+      "file": "twse.json",
+      "provider": "TWSE",
+      "url": "https://www.twse.com.tw/indicesReport/MI_5MINS_HIST?date=20261007&response=json",
+      "sha256": "67085851509edbd181d03408ef2f1776b8f5771c59f5fa58a8bdc53c7f1bc9cc"
+    }
+  ],
+  "canonical_panel_sha256": "4d32fdb66a3265e03c4ee9a7a355a9ba95a052afada03306de0c820356281aa4"
+}

@@ -1,0 +1,180 @@
+{
+  "originals": [
+    {
+      "file": "FULINS_O_20261114_01of03.zip",
+      "url": "https://firds.esma.europa.eu/firds/FULINS_O_20261114_01of03.zip",
+      "service": "ESMA",
+      "sha256": "13e6959d973d5e292a2b7708d98009da50070f1572a3372f7985ee9f9d8fb28f"
+    },
+    {
+      "file": "FULINS_O_20261114_02of03.zip",
+      "url": "https://firds.esma.europa.eu/firds/FULINS_O_20261114_02of03.zip",
+      "service": "ESMA",
+      "sha256": "ddd48af13cbab7a87e65ea9bceeae2bc86650b93ceefa415997f4c9f432d4dcd"
+    },
+    {
+      "file": "FULINS_O_20261114_03of03.zip",
+      "url": "https://firds.esma.europa.eu/firds/FULINS_O_20261114_03of03.zip",
+      "service": "ESMA",
+      "sha256": "b8bcf4c9110aff8b475723344d9f73ab948e1418f6e7deb70467e29efdac93f3"
+    },
+    {
+      "file": "DLTINS_20261115_01of01.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261115_01of01.zip",
+      "service": "ESMA",
+      "sha256": "8aa081d8346a838b387b464d501f45234ab38f0c0eac60cdcacc3dc5f42c7b99"
+    },
+    {
+      "file": "DLTINS_20261116_01of01.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261116_01of01.zip",
+      "service": "ESMA",
+      "sha256": "c0830c3e326f2d80c437870936caec81c83f3d470a353c132a6305112cb987a4"
+    },
+    {
+      "file": "DLTINS_20261117_01of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261117_01of04.zip",
+      "service": "ESMA",
+      "sha256": "a8a9355445ce33159b6ddeb1e32bf1b4bc562b7e655a15228dee005a442197ee"
+    },
+    {
+      "file": "DLTINS_20261117_02of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261117_02of04.zip",
+      "service": "ESMA",
+      "sha256": "faf6106668a5ef83284bf181ac660712b04210aa1d0047da82dbf7829992f5bc"
+    },
+    {
+      "file": "DLTINS_20261117_03of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261117_03of04.zip",
+      "service": "ESMA",
+      "sha256": "2c44243e1ffe3f9d02f9639b28077b94a06959cef7b6347aea786be94e5b7477"
+    },
+    {
+      "file": "DLTINS_20261117_04of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261117_04of04.zip",
+      "service": "ESMA",
+      "sha256": "7391fda8b62371ccf351f08c3a5ab9f16378a8d32e04545a90161d54d4fa0801"
+    },
+    {
+      "file": "DLTINS_20261118_01of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261118_01of04.zip",
+      "service": "ESMA",
+      "sha256": "870d071c1ef6975c9d0f3190489bf775ec0d7cadb9da2d1e568ffe3e58d22288"
+    },
+    {
+      "file": "DLTINS_20261118_02of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261118_02of04.zip",
+      "service": "ESMA",
+      "sha256": "4d9be7c07a4f805aba90dff2988cb2c85bea35994d82d3a73e7931e1330c70f6"
+    },
+    {
+      "file": "DLTINS_20261118_03of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261118_03of04.zip",
+      "service": "ESMA",
+      "sha256": "38778a550aeb859b24734c21b6ed6d8dfb9d2ed3d4d19b072d9d594e84c19ad1"
+    },
+    {
+      "file": "DLTINS_20261118_04of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261118_04of04.zip",
+      "service": "ESMA",
+      "sha256": "ba795cb02f26126d1e20e90a664e15e8337897210738386685db645c0d2d8c91"
+    },
+    {
+      "file": "DLTINS_20261119_01of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261119_01of04.zip",
+      "service": "ESMA",
+      "sha256": "4abccbf4438ae0e4473b7df11cfeb847f23667cd4d1e46fffb0091732e75dd03"
+    },
+    {
+      "file": "DLTINS_20261119_02of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261119_02of04.zip",
+      "service": "ESMA",
+      "sha256": "f6b79e956c6154cb3911097e3f8740168f127c885e294a158091566fb35ef01a"
+    },
+    {
+      "file": "DLTINS_20261119_03of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261119_03of04.zip",
+      "service": "ESMA",
+      "sha256": "0856301cb73ac05197526817fcb4b44f44055bd3b7dc4614c95e4be2e8e7fbc2"
+    },
+    {
+      "file": "DLTINS_20261119_04of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261119_04of04.zip",
+      "service": "ESMA",
+      "sha256": "97bd014963ac2e24624d39ae660361c882b00f6d4dfd629b01d95cb946b1fcdf"
+    },
+    {
+      "file": "DLTINS_20261120_01of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261120_01of04.zip",
+      "service": "ESMA",
+      "sha256": "31affa58563b93990abd9b9db50669f05970b304ed5e16c1fc0223d28ce70570"
+    },
+    {
+      "file": "DLTINS_20261120_02of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261120_02of04.zip",
+      "service": "ESMA",
+      "sha256": "fedb9991cd2e8d1a70d1537890bbbe96ae0efdf87fe855e4fab36511570c657b"
+    },
+    {
+      "file": "DLTINS_20261120_03of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261120_03of04.zip",
+      "service": "ESMA",
+      "sha256": "bbbce0be363d0782da613416ae171e6290e7d718d35da99e47c5cb3892b03264"
+    },
+    {
+      "file": "DLTINS_20261120_04of04.zip",
+      "url": "https://firds.esma.europa.eu/firds/DLTINS_20261120_04of04.zip",
+      "service": "ESMA",
+      "sha256": "171caf2caeb002d9ab4fa501e4de9866fe352ddc75a33aa8f509c882372231b3"
+    },
+    {
+      "file": "DEUR-pretradeMDOptions-2026-11-20T12_00.json.gz",
+      "url": "https://mfs.deutsche-boerse.com/api/download/DEUR-pretradeMDOptions-2026-11-20T12_00.json.gz",
+      "service": "Deutsche Boerse",
+      "feed": "DEUR-pretradeMDOptions",
+      "sha256": "442dce2529792dfaf4110de8cc8291bad1ebe997a8a8d49bbdbcc58765713cf8"
+    },
+    {
+      "file": "DETR-pretrade-2026-11-20T12_00.json.gz",
+      "url": "https://mfs.deutsche-boerse.com/api/download/DETR-pretrade-2026-11-20T12_00.json.gz",
+      "service": "Deutsche Boerse",
+      "feed": "DETR-pretrade",
+      "sha256": "cd3e6554d3662631263bf5c0bdc7eb52c7e79e7b796559e3271ca6e647317ffe"
+    },
+    {
+      "file": "DEUR-posttrade-2026-11-20T12_00.json.gz",
+      "url": "https://mfs.deutsche-boerse.com/api/download/DEUR-posttrade-2026-11-20T12_00.json.gz",
+      "service": "Deutsche Boerse",
+      "feed": "DEUR-posttrade",
+      "sha256": "e5fb9827e1618492275c4ad6569db3440bbb70fc03ceb8f7c0b8bbdc16c82367"
+    },
+    {
+      "file": "ECB.csv",
+      "url": "https://data-api.ecb.europa.eu/service/data/EST/B.EU000A2X2A25.WT?startPeriod=2026-11-19&endPeriod=2026-11-19&format=csvdata",
+      "service": "ECB",
+      "sha256": "a2feb4e98d0c1fd5f88e9dff1398acdcf5b5a05ed92ffe9f7339b1b254f4ce14"
+    },
+    {
+      "file": "half.pdf",
+      "url": "https://fr.ftp.opendatasoft.com/datadila/INFOFI/BWR/8888/01/FCBWR168826_20260724.pdf",
+      "service": "DILA / AMF",
+      "sha256": "51bf3b5ff16e0138f6bba4c03d1ea25ab7b35026c1bee3366213eeb422ad99f8"
+    },
+    {
+      "file": "DEUR-posttrade-daily-2026-11-20.json.gz",
+      "url": "https://mfs.deutsche-boerse.com/api/download/DEUR-posttrade-daily-2026-11-20.json.gz",
+      "service": "Deutsche Boerse",
+      "feed": "DEUR-posttrade",
+      "sha256": "2e649713c6735c56f5c6fe55a5e616d8c18dd361cd9b22f450e216f792b2d0b3"
+    }
+  ],
+  "offline_sha256": {
+    "DETR-pretrade.ndjson.gz": "8da85ad3dee23b8a52c91460863ff58e324998ea5d7f0e83cb7ad39c550dd6f6",
+    "DEUR-posttrade-daily.ndjson.gz": "ee539813ef95e457fdf5c9f6fbdaa02accb7463ebc1d549c36098ed977a8e3f7",
+    "DEUR-posttrade.ndjson.gz": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64",
+    "DEUR-pretradeMDOptions.ndjson.gz": "42e6d6a5541ae4a8675d3df05f6bedab80a991d85f1722ffa2d7ca42cbfb9423",
+    "DILA_record.json": "f6bde58599060a5e4652fe309e41f9697dc5696b61c7997653ddad765c2f60bd",
+    "ECB.csv": "a2feb4e98d0c1fd5f88e9dff1398acdcf5b5a05ed92ffe9f7339b1b254f4ce14",
+    "FIRDS.xml": "6c266abbb75912fb6121edcc65aed72d63fd51db3e04f4b18d2ac6d51317eb5b",
+    "dividend.json": "b0ba44ee8468aaaf1d4ca4fa527832dc270a913bf542a924ece68fb88073d718"
+  }
+}
